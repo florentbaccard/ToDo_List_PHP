@@ -1,0 +1,171 @@
+/* Définition du fond d'écran global */
+/* Setting the global background */
+body {
+    background: #34495e;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+/* Resetting margins and paddings */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Style de la section principale */
+/* Style of the main section */
+.main-section {
+    background: transparent;
+    max-width: 500px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+/* Style de la section d'ajout */
+/* Style of the add section */
+.add-section {
+    width: 100%;
+    background: #fff;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style des champs de saisie */
+/* Style of the input fields */
+.add-section input {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+/* Style du bouton d'ajout */
+/* Style of the add button */
+.add-section button {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 0px auto;
+    border: none;
+    outline: none;
+    background: #0088FF;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style au survol du bouton d'ajout */
+/* Style when hovering over the add button */
+.add-section button:hover {
+    box-shadow: 0 2px 2px 0 #ccc, 0 2px 3px 0 #ccc;
+    opacity: 0.7;
+}
+
+/* Style du point d'exclamation d'erreur */
+/* Style of the error exclamation mark */
+#errorMes {
+    display: block;
+    background: #f2dede;
+    width: 95%;
+    margin: 0px auto;
+    color: rgb(139, 19, 19);
+    padding: 10px;
+    height: 35px;
+}
+
+/* Style de la section d'affichage des tâches */
+/* Style of the task display section */
+.show-todo-section {
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style des éléments de tâche */
+/* Style of the task items */
+.todo-item {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #ccc;
+    border-radius: 5px;
+}
+
+/* Style du titre de la tâche */
+/* Style of the task title */
+.todo-item h2 {
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #555;
+}
+
+/* Style de la description de la tâche */
+/* Style of the task description */
+.todo-item small {
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    color: #888;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* Style du bouton de suppression de tâche */
+/* Style of the task removal button */
+.remove-to-do {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    font-family: sans-serif;
+    color: rgb(139, 97, 93);
+    text-decoration: none;
+    text-align: right;
+    padding: 0px 5px 8px 0px;
+    border-radius: 50%;
+    transition: background 1s;
+    cursor: pointer;
+}
+
+/* Style au survol du bouton de suppression */
+/* Style when hovering over the removal button */
+.remove-to-do:hover {
+    background: rgb(139, 97, 93);
+    color: #fff;
+}
+
+/* Style des tâches terminées */
+/* Style of completed tasks */
+.checked {
+    color: #999 !important;
+    text-decoration: line-through;
+}
+
+/* Marge pour les cases à cocher */
+/* Margin for the checkboxes */
+.todo-item input {
+    margin: 0px 5px;
+}
+
+/* Style pour l'affichage lorsque aucune tâche n'est disponible */
+/* Style for displaying when no tasks are available */
+.empty {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #cccc;
+}
