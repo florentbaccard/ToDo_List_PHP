@@ -38,6 +38,6 @@ cd ToDo_List_PHP
 ## Captures d'écran
 
 <p align="center">
-  <img src="Screen/Screen1.png" alt="Capture d'écran 1" width="400" height="174px"/>
-  <img src="Screen/Screen2.png" alt="Capture d'écran 2" width="80"/>
+  <img src="Screen/Screen1.png" alt="Capture d'écran 1" width="1000"/>
+  <img src="Screen/Screen2.png" alt="Capture d'écran 2" width="300"/>
 </p>
