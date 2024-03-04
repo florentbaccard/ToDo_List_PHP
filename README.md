@@ -31,8 +31,6 @@ Le projet est organisé comme suit :
 
 ```bash
 git clone https://github.com/florentbaccard/ToDo_List_PHP.git
-cd ToDo_List_PHP
-
 ```
 
 ## Captures d'écran
